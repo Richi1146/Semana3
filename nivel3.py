@@ -14,7 +14,20 @@
 #     Composición de funciones
 #     Escribe una función que reciba otra función como parámetro y aplique una composición de funciones.
 
-def validate_password(password):pass
+import random
+import re
+
+def validarcontraseña(contraseña):
+    if (len(contraseña) >= 8 and
+        re.search(r"[A-Z]", contraseña) and
+        re.search(r"[a-z]", contraseña) and
+        re.search(r"\d", contraseña) and
+        re.search(r"[!@#$%^&*()-=+{};:,<.>]", contraseña)):
+        return True
+    else:
+        return False
+
+contraseña = input("Ingresa una contraseña: ")
 
 def list_num(list):
     list2 = []
@@ -24,8 +37,11 @@ def list_num(list):
             suma = sum(list2)
     print(suma)
 
-
-
-
 list1 = [2,4,6,8,1,1,2,2]
 list_num(list1)
+
+def dados():
+    return random.randint(1,6)
+
+def compose(func1, func2, valor):
+    return func1(func2(valor))
