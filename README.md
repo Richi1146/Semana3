@@ -1,6 +1,6 @@
-# Colección de Ejercicios de Python por Niveles
+# Ejercicios Python
 
-Este script contiene una serie de funciones en Python organizadas por nivel de dificultad: básico, intermedio y avanzado. Cada función está diseñada para practicar conceptos de programación con Python.
+Este archivo es de ejercicios en Python por niveles
 
 ## 🟢 Nivel Básico
 
