@@ -15,7 +15,7 @@ Este script contiene una serie de funciones en Python organizadas por nivel de d
 
 Resultados esperados:
 
-![alt text](img/image.png)
+![alt text](ejerciciosPython/img/image.png)
 
 ## 🟡 Nivel Intermedio
 
@@ -29,7 +29,7 @@ Resultados esperados:
  
 Resultado esperado:
 
-![alt text](img/image2.png)
+![alt text](ejerciciosPython/img/image2.png)
 
 ## 🔴 Nivel Avanzado
 
@@ -41,7 +41,7 @@ Resultado esperado:
 
 Resultado esperado:
 
-![alt text](img/image3.png)
+![alt text](ejerciciosPython/img/image3.png)
 
 
 ---
